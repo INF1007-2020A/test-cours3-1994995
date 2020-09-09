@@ -3,7 +3,8 @@
 def capitaliser_pays(nom):
     # TODO completer la  fonction
     nom_liste = str.split(nom)
-    for x in range(len())
+    for x in range(len(nom_liste)):
+        
     return nom
 
 
