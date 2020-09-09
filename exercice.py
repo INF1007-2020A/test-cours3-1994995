@@ -7,7 +7,7 @@ def capitaliser_pays(nom):
         ascii_int = ord(lettre)
         if 97 <= ascii_int =< 122 and nom_liste[lettre] == 1:
             ascii_int -= 32
-            nom
+            nom_liste
     return nom
 
 
