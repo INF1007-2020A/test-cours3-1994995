@@ -5,7 +5,7 @@ def capitaliser_pays(nom):
     nom_liste = str.split(nom)
     for lettre in range(len(nom_liste)):
         ascii_int = ord(lettre)
-        if 65ascii_int =< 
+        if 65 <= ascii_int =< 90
     return nom
 
 
