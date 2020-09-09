@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     # TODO completer la  fonction
-    str.split(nom)
+    nom_liste = str.split(nom)
+    
     return nom
 
 
