@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
-    # TODO completer la fonction
+    # TODO completer la  fonction
+    nom_liste = str.split(nom)
+    for lettre in range(len(nom_liste)):
+        ascii_int = ord(lettre)
+        if 97 <= ascii_int =< 122 and nom_liste[lettre] == 1:
+            ascii_int -= 32
+            nom_liste[1] = ord(ascii_int)
     return nom
 
 
